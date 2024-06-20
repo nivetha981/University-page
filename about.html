@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Playpen+Sans:wght@100;300&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blogs.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+ <h1>About us</h1>
+
+</section> 
+<section class="about-us">
+
+  <div class="row">
+    <div class="about-col">
+        <h1>we are the world's latrgest university</h1>
+        <p>
+            wertyuiokjhgfdsaxcvbnadftyukmnbvf
+            qwertyuijvcserthjnsertyuvcxdfhjdfghc
+            ertyujnbvcdrtyjasrtyjdertyjytfghuytrfytrf
+            fgytry6rfgy6rfgyy6rfgu765rujfdtyhgderujbfgyui
+            mnbvcxasdfghjkytreerthfdtyujghu
+        </p>
+        <a href=""class="hero-btn red-btn">Explore now</a></div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+
+</section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+ </script>  
+ 
+<section class="footer">
+    <h2>About us</h2>
+    <p>
+        qwertyuiopwertyuioplkjhgfdsxcvbnmmnbvdtyuiuytre<br>
+        lkjhgfdsazxcvbnmnbvcxzasdfghjkpoiuytrewqertyuio
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa-regular fa-heart"></i></i> easy tutorial</p>
+
+</section>
+
+
+</body>
+</html>
